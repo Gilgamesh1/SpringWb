@@ -12,5 +12,6 @@
         <a href="${pageContext.request.contextPath}/validacion/cargar">Validacion</a></br>
         <a href="${pageContext.request.contextPath}/validacion/cargarValidation">Validacion Personalizada</a></br>
         <a href="${pageContext.request.contextPath}/sesion/cargar">Sesion</a></br>
+        <a href="${pageContext.request.contextPath}/jpa/cargar">JpaSchool</a></br>
     </body>
 </html>
