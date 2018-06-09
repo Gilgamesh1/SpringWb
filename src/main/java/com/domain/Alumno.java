@@ -5,6 +5,7 @@
  */
 package com.domain;
 
+import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -13,12 +14,13 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
+ * , schema = "public"
  *
  * @author Raúl
  */
 @Entity
-@Table(name = "alumno", schema = "public")
-public class Alumno {
+@Table(name = "alumno")
+public class Alumno implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
